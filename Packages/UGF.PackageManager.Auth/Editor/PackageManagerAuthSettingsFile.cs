@@ -19,11 +19,10 @@ namespace UGF.PackageManager.Auth.Editor
         protected override PackageManagerAuthSettingsData OnLoadSettings()
         {
             var data = ScriptableObject.CreateInstance<PackageManagerAuthSettingsData>();
-            string text = null;
 
             if (File.Exists(FilePath))
             {
-                text = File.ReadAllText(FilePath);
+                string text = File.ReadAllText(FilePath);
             }
 
             return data;
