@@ -1,0 +1,20 @@
+{
+    "name": "UGF.PackageManager.Auth.Editor.Tests",
+    "rootNamespace": "",
+    "references": [
+        "GUID:37674670f92036a42bf023e31e6651b4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

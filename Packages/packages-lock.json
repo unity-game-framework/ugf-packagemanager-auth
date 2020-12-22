@@ -1,10 +1,28 @@
 {
   "dependencies": {
-    "com.ugf.package.name": {
-      "version": "file:Package",
+    "com.ugf.customsettings": {
+      "version": "3.4.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.ugf.editortools": "1.7.0"
+      },
+      "url": "https://api.bintray.com/npm/unity-game-framework/public"
+    },
+    "com.ugf.editortools": {
+      "version": "1.7.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://api.bintray.com/npm/unity-game-framework/public"
+    },
+    "com.ugf.packagemanager.auth": {
+      "version": "file:UGF.PackageManager.Auth",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.ugf.customsettings": "3.4.0"
+      }
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
